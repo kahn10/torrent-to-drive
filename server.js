@@ -5,7 +5,7 @@ const driveCredentials = require('./data/driveCredentials.json');
 
 const DRIVE_CLIENT_ID = driveCredentials.clientId;
 const DRIVE_CLIENT_SECRET = driveCredentials.clientSecret;
-const DRIVE_REDIRECT_URI = process.env.DRIVE_REDIRECT_URI || 'https://torrent-todrive-1.herokuapp.com:3000/login-callback';
+const DRIVE_REDIRECT_URI = process.env.DRIVE_REDIRECT_URI || 'https://accounts.google.com/o/oauth2/auth:3000/login-callback';
 const DRIVE_RETURN_FIELDS = 'id,name,webViewLink';
 const DRIVE_TORRENT_DIR = 'My torrents';
 
